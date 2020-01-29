@@ -2,7 +2,7 @@ stages:
 - stage: Environment
   jobs:
   - deployment: DeployPPE
-    environment: ankhokha
+    environment: aa
     pool: 'Hosted VS2017'
     strategy:
       runOnce:
